@@ -1,0 +1,28 @@
+{
+  "name": "TestAutomationMtp-1",
+  "version": "1.0.0",
+  "description": "Testes automatizados avaliação Mtp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/CalculoUmidadeSolo.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiag0benites/TestAutomationMtp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiag0benites/TestAutomationMtp/issues"
+  },
+  "homepage": "https://github.com/thiag0benites/TestAutomationMtp#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.2.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
+    "chai": "^4.3.6"
+  }
+}
